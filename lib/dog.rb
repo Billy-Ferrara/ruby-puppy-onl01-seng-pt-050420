@@ -1,6 +1,6 @@
 class Dog
 
-  attr_accessor :name 
+  attr_accessor :name
 
   @@all = []
 
@@ -23,6 +23,9 @@ class Dog
     end
   end
 
+  def save
+    @@all << save
+  end
 
 
 end
